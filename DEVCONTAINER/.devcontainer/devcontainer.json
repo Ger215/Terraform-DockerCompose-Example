@@ -1,0 +1,15 @@
+{
+    "name": "dotnet-devcontainer",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "webapi",
+    "workspaceFolder": "/src",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-dotnettools.csharp",
+          "ms-azuretools.vscode-docker"
+        ]
+      }
+    }
+  }
+  
